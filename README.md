@@ -8,8 +8,10 @@ cd cutl; pip3 install .
 
 ### usage
 ```bash
-cutl [file] [N/Lines] [output]
-cutl strings.txt 25 str.trim
+Usage: cutl [list] [line] [output]
+cutl - take N lines from a file list and automatically trim them from the source
+
+$ cutl strings.txt 25 str.trim
  ```
  
 
